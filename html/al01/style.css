@@ -1,0 +1,28 @@
+* {
+}
+
+form {
+  background-color: white;
+  padding: 3px;
+  border-radius: 5px;
+  box-shadow: 5px 5px solid black;
+}
+
+body {
+  margin: auto;
+  width: 400px;
+  padding-top: 8px;
+  background-image: linear-gradient(to right, #E8D6CB, #D0ADA7, #AD6A6C, #5D2E46, #B58DB6);
+}
+
+fieldset {
+  border-style: solid;
+  border-radius: 10px;
+  border-color: #D0ADA7;
+}
+
+fieldset label {
+  border: 1px solid black;
+  padding: 2px;
+  border-radius: 10px;
+}

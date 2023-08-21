@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Forms</title>
+</head>
+<body>
+  <form action="#" method="get">
+    <label for="company">Company Name: </label>
+    <input type="text" name="company" id="company" required>
+    <br>
+    <label for="email">Email: </label>
+    <input type="email" name="email" id="email" required>
+    <br>
+    <label for="full_name">Full name:</label>
+    <input type="text" name="full_name" id="full_name" required>
+    <fieldset>
+      <legend>
+        Job Type
+      </legend>
+      <label for="talk">
+        Talk
+        <input type="radio" name="job" id="talk">
+      </label>
+      
+
+      <label for="part time job">
+        Part Time Job
+        <input type="radio" name="job" id="part time job">
+      </label>
+
+      <label for="full time job">
+        Full Time Job
+        <input type="radio" name="job" id="full time job" checked>
+      </label>
+
+      <label for="freelancer">
+        Freelancer
+        <input type="radio" name="job" id="freelancer">
+      </label>
+    </fieldset>
+    <label for="remote">
+      Remote
+      <input type="checkbox" name="remote" id="remote">
+    </label>
+    <br>
+    <label for="proposal">Proposal</label>
+    <textarea name="proposal" id="proposal" cols="30" rows="3">Explain your offer here</textarea>
+    <br>
+    <!-- <input type="number" min="0" max="4" name="random" value="0"> -->
+    <input type="submit" value="Send">
+  </form>
+</body>
+</html>
