@@ -1,0 +1,19 @@
+table, th, td {
+  margin: auto;
+}
+
+table {
+  width: 400px;
+}
+
+tr:nth-child(even) {
+  background-color: lightgray;
+}
+
+tr:hover {
+  background-color: coral;
+}
+
+tr {
+  border-bottom: 1px solid black;
+}
