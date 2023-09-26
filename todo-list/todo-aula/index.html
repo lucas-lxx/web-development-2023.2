@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="todo.css">
+</head>
+<body>
+  <main>
+    <form method="GET" id="formulario">
+      <label>
+        Categoria:
+        <select id="categoria">
+          <option value="estudo">Estudo</option>
+          <option value="lazer">Lazer</option>
+          <option value="leitura">Leitura</option>
+          <option value="saude">Saúde</option>
+        </select>
+      </label>
+      <label>
+        Descrição:
+        <input type="text" name="descricao" id="descricao" required>
+      </label>
+      <label>
+        Prazo de entrega:
+        <input type="date" id="data">
+      </label>
+      <input type="submit">
+    </form>
+  </main>
+  <h1>Tarefas pendentes</h1>
+  <ul id="pendentes">
+  </ul>
+  <h1>Tarefas concluídas</h1>
+  <ul id="concluidas">
+  </ul>
+  <script src="todo.js"></script>
+</body>
+</html>

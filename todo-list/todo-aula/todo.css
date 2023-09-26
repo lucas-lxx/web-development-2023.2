@@ -1,0 +1,35 @@
+main {
+  max-width: 960px;
+}
+
+ul {
+  list-style: none;
+}
+
+input[type=checkbox]:checked + label {
+  text-decoration: line-through;
+}
+
+.estudo {
+  border-left: 5px solid blue;
+  border-top-left-radius: 4px ;
+  border-bottom-left-radius: 4px ;
+}
+
+.lazer {
+  border-left: 5px solid red;
+  border-top-left-radius: 4px ;
+  border-bottom-left-radius: 4px ;
+}
+
+.leitura {
+  border-left: 5px solid greenyellow;
+  border-top-left-radius: 4px ;
+  border-bottom-left-radius: 4px ;
+}
+
+.saude {
+  border-left: 5px solid violet;
+  border-top-left-radius: 4px ;
+  border-bottom-left-radius: 4px ;
+}

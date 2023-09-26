@@ -1,0 +1,21 @@
+main {
+  max-width: 960px;
+  text-align: center;
+}
+
+ul {
+  list-style: none;
+  padding-left: 10px;
+}
+
+.line-through-text {
+  text-decoration: line-through;
+}
+
+h1 {
+  font-size: 20px;
+}
+
+div.list {
+  text-align: left;
+}
